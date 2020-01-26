@@ -1,0 +1,232 @@
+/* CSS for adding content example */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+
+/*
+dark blue
+rgb(106, 90, 205)
+#032547
+*/
+body {
+	background-color:  #032547;
+	position: relative; 
+	display: inline-block; 
+	height: 100%;
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 2em;
+	margin: 2em;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #032547;
+}
+
+h1 {
+	color: #032547;
+	font-size: 2em; 
+}
+
+h2 {
+	color: #032547; 
+	font-size: 1.5em; 
+}
+
+h3 {
+	color: #032547; 
+	font-size: 1.25em;
+}
+
+p { 
+		color: #032547; 
+		font-size: 1em; 
+}
+
+header, section, footer, aside, article, figure, figcaption {
+				display: block;
+      }
+
+			nav {
+				display: inline-block;
+
+			}
+
+			nav ul li {
+				display: inline;
+			}
+
+			.hero-image {
+			  background-image:  url("https://res.cloudinary.com/kodesign/image/upload/b_rgb:032547,bo_89px_solid_rgb:032547,c_fill,e_art:sizzle,h_600,r_29,w_2000,z_0.1/v1544476124/BMWDIY/carbanner.jpg");
+				height: 600px;
+				width: 1445px; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      	position: relative;
+	    }
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text > p {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	color: white;  
+	text-decoration-style: solid; 
+	font-size: 1.75em;
+
+}
+
+
+
+.hero-text > button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: rgb(11, 5, 49);
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text > button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* change image to cloudinary */
+	
+
+      .wrapper {
+				width: 100%;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+
+      }
+
+      header {
+
+      /*  background-color: rgb(106, 90, 205); 
+				background-image: url("http://res.cloudinary.com/kodesign/image/upload/e_brightness:100,r_0/c_scale,e_art:frost,w_1071/v1518560189/bmwdiyheader1_q4thni.jpg")no-repeat center top;
+			*/
+				background-size: cover;
+            }
+
+			@media (max-width: 768) {
+				background:url('http://res.cloudinary.com/kodesign/image/upload/e_brightness:100,r_0/c_scale,e_art:frost,w_1071/v1518560189/bmwdiyheader1_q4thni.jpg')no-repeat center top; 
+			}
+
+    
+
+			nav, footer {
+				background-color: rgba(10, 17, 104, 0.322);
+				height: 30px;
+      }
+
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;
+      }
+
+			nav li {
+				display: flex;
+				margin-right: 40px;
+      }
+
+			nav li a {
+				color: #ffffff;
+      }
+
+			nav li a:hover, nav li a.current {
+				color: #000000;
+      }
+
+			section.cars {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;
+      }
+
+			article {
+				background-color: gray; 
+				clear: both;
+				overflow: auto;
+				width: 100%;
+				border: 1px solid #032547;
+      }
+
+			hgroup {
+				margin-top: 40px;
+      }
+
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;
+      }
+
+			figcaption {
+				font-size: 90%;
+				text-align: left;
+      }
+
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;
+      }
+
+			aside section a {
+				display: flex;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;
+      }
+
+			aside section a:hover {
+				color: #e6bfc7;
+				background-color: #efefef;
+      }
+
+			a {
+				color: #e6bfc7;
+				text-decoration: none;
+      }
+		
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color:  #e6bfc7;
+      }
+
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;
+      }
+
+			#e36pic  {
+				display: flex;
+				align-self: right;
+				padding: 20px 5px 5px 20px; 
+				margin: 20px 5px 5px 20px; 
+			}
+       #e30pic {
+			display: flex;
+			align-self: right;
+			padding: 20px 5px 5px 20px; 
+			margin: 20px 5px 5px 20px; 
+			}
+
+			#e36 {
+				background: src("https://res.cloudinary.com/kodesign/image/upload/c_fill,w_497/v1515687252/e36_l2nqhi.jpg");
+			}
+
+			#e30 {
+				background: src(" https://res.cloudinary.com/kodesign/image/upload/c_scale,co_rgb:1919d6,dn_265,e_art:incognito,o_85,w_498,z_1.9/b_rgb:8495eb,e_art:sizzle/v1544495430/e30_rrhufj.jpg")
+			}
